@@ -8,6 +8,9 @@ Berikut Tools yang saya gunakan pada Soal CTF ini.
 * [BurpSuite](https://portswigger.net/burp)
 
 ## Write Up
+1. Diberikan Soal berupa sebuah website
+   ![Soal](/img/img.jpg?raw=true "Optional Title")
+3. 
 
 
 
