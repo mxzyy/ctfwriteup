@@ -9,7 +9,7 @@ Berikut Tools yang saya gunakan pada Soal CTF ini.
 
 ## Write Up
 1. Diberikan Soal berupa sebuah website
-   ![Soal](/img/Screenshot from 2023-08-25 20-30-26.png?raw=true "Optional Title")
+   
 3. 
 
 
