@@ -29,19 +29,11 @@ Berikut Alat & Bahan yang saya gunakan pada Soal CTF ini.
    
 8. Berikut hasilnya jika valuenya 2
    ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-45-16.png)
-   Terlihat juga tulisanya berganti menjadi 'I love oatmeal raisin cookies!', bisa dilihat bahwa hal ini menandakan suatu pola dengan kondisi jika kita terus mengganti valuenya, maka saya coba untuk membuat script untuk melihat tulisan apa yang akan keluar berdasarkan value dari cookies tadi.
+   Terlihat juga tulisanya berganti menjadi 'I love oatmeal raisin cookies!', bisa dilihat bahwa hal ini menandakan suatu pola dengan kondisi jika kita terus mengganti valuenya, maka saya coba untuk membuat script untuk melihat tulisan apa yang akan keluar berdasarkan value dari cookies tadi. Jadi kita dapat melakukan otomatisasi untuk mengganti setiap value dari cookies tersebut, untuk source-code nya sudah saya buat dan alhasil kita mendapatkan flag nya.
    
-10. 
+10. Ta-daa
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2013-26-38.png)
    
 
-11. Lalu saya coba juga tombol yang biru
-   ![WebBlue](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/GET%20aHEAD/img/Screenshot%20from%202023-08-25%2020-52-05.png)
-   
-   ![ResBlue](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/GET%20aHEAD/img/Screenshot%20from%202023-08-25%2020-51-50.png)
-
-11. Dari kedua tombol tersebut, terdapat suatu perbedaan pada Requestnya, yaitu ditombol merah menggunakan HTTP Method GET, sedangkan yang biru menggunakan HTTP Method POST. Dipikir2 method GET ini sesuai dengan nama soalnya, tetapi tidak dengan POST. yang seharusnya HEAD malah POST. ywdah sih tinggal coba aj pake Repeater burpsuite.
-
- ![HEAD](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/GET%20aHEAD/img/Screenshot%20from%202023-08-25%2020-57-17.png)
-
- Langsung nemu coy, yak sekian dari write up yang tidak jelas ini kurang lebihnya mohon mff. terimaksih
+ Langsung nemu coy, yak sekian dari write up yang tidak begitu jelas ini kurang lebihnya mohon mff. terimaksih
    
