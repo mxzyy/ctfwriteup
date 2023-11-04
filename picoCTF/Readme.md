@@ -7,4 +7,5 @@
 ## 📃 Lists
 
 ### Web Exploitation
-- [GET aHEAD)](https://github.com/mxzyy/ctfwriteup/tree/main/picoCTF/GET%20aHEAD)
+- [GET aHEAD](https://github.com/mxzyy/ctfwriteup/tree/main/picoCTF/GET%20aHEAD)
+- [Cookies](https://github.com/mxzyy/ctfwriteup/tree/main/picoCTF/Cookies)
