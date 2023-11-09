@@ -8,30 +8,28 @@ Berikut Alat & Bahan yang saya gunakan pada Soal CTF ini.
 * [Mozilla Firefox](https://www.mozilla.org/id/firefox/new/)
 
 ## Write Up
-1. Diberikan Soal yang berisi suatu url, disini soalnya tidak memiliki hints.
-   ![Soal](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-25-11.png)
+1. Diberikan Soal yang berisi suatu url, disini soalnya memiliki 2 hints, berikut gambar2nya.
+   ![Soal](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-46-25.png)
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-46-11.png)
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-45-55.png)
 
-2. Langsung coba cek websitenya, disni terdapat input 'snickerdoodle' langsung saja saya klik
-   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-28-08.png)
+2. Langsung coba cek websitenya, disni terdapat tulisan untuk melakukan inspect me.
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-46-30.png)
    
-3. Berikut hasil dari inputan snickerdoodle
-   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-30-06.png)
-   Dapat dilihat terdapat tulisan 'I Love snickerdoodle cookies!', saya tau bahwa kata cookies ini merujuk pada cookies web, langsung saja kita cek menggunakan Inspect Tool dari Mozilla Firefox.
+3. Untuk melakukan inspect kita dapat melihat source code dari web tersebut dengan mengklik kanan pada web, berikut hasilnya.
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-46-38.png)
+   Dapat dilihat bahwa terdapat 1 part dari 3 part flag. Langsung saja kita cek file CSSnya. 
 
-4. Terlihat disini terdapat cookies dengan value 0
-   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-44-40.png)
-   Saya pun mencoba untuk mengganti valuenya menjadi 1.
+4. Jika kita scroll kebawah kita akan menemukan part 2 dari flag diatas. kini kita memiliki 2 part flag dan perlu mencari 1 lagi.
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-46-48.png)
+   Kembali ke html, dan kita cek file Javascriptnya.
    
-6. Berikut hasilnya jika menggunakan value 1
-   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-35-44.png)
-   Terlihat bahwa tulisanya berganti menjadi 'I love chocolate chip cookies!', lalu saya ganti lagi value nya menjadi 2
+5. Berikut hasilnya
+   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Insp3ct0r/img/Screenshot%20from%202023-11-09%2018-46-53.png)
+   Terlihat bahwa tedapat part terakhir dari flag, maka kita sudah menemukan semuanya
    
-8. Berikut hasilnya jika valuenya 2
-   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2007-45-16.png)
-   Terlihat juga tulisanya berganti menjadi 'I love oatmeal raisin cookies!', bisa dilihat bahwa hal ini menandakan suatu pola dengan kondisi jika kita terus mengganti valuenya, maka saya coba untuk membuat script untuk melihat tulisan apa yang akan keluar berdasarkan value dari cookies tadi. Jadi kita dapat melakukan otomatisasi untuk mengganti setiap value dari cookies tersebut, untuk source-code nya sudah saya buat dan alhasil kita mendapatkan flag nya.
-   
-10. Ta-daa
-   ![](https://raw.githubusercontent.com/mxzyy/ctfwriteup/main/picoCTF/Cookies/img/Screenshot%20from%202023-11-04%2013-26-38.png)
+6. Berikut flagnya
+   ```picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?2e7b23e3}```
    
 
  Langsung nemu coy, yak sekian dari write up yang tidak begitu jelas ini kurang lebihnya mohon mff. terimaksih
