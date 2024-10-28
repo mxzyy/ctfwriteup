@@ -6,7 +6,7 @@ Pada kesempatan kali ini, saya akan berbagi pengalaman dan solusi dari tantangan
 Berikut Alat & Bahan yang saya gunakan pada Soal CTF ini.
 
 * [Python](https://www.python.org/)
-* [Pwntools]([https://www.mozilla.org/id/firefox/new/](https://docs.pwntools.com/en/stable/))
+* [Pwntools](https://docs.pwntools.com/en/stable/)
 
 ### Write-up
 1. Diberikan 2 file yaitu file executeable dan source codenya berikut gambarnya.
