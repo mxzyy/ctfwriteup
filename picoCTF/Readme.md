@@ -14,3 +14,4 @@
 ### Binary Exploitation
 - [heap 0](https://github.com/mxzyy/ctfwriteup/blob/main/picoCTF/heap%200)
 - [heap 1](https://github.com/mxzyy/ctfwriteup/blob/main/picoCTF/heap%201)
+- [heap 2](https://github.com/mxzyy/ctfwriteup/blob/main/picoCTF/heap%202)
