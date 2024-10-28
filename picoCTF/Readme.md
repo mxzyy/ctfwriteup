@@ -10,3 +10,7 @@
 - [GET aHEAD](https://github.com/mxzyy/ctfwriteup/tree/main/picoCTF/GET%20aHEAD)
 - [Cookies](https://github.com/mxzyy/ctfwriteup/tree/main/picoCTF/Cookies)
 - [Insp3ct0r](https://github.com/mxzyy/ctfwriteup/tree/main/picoCTF/Insp3ct0r)
+
+### Binary Exploitation
+- [heap 0](https://github.com/mxzyy/ctfwriteup/blob/main/picoCTF/heap%200)
+- [heap 1](https://github.com/mxzyy/ctfwriteup/blob/main/picoCTF/heap%201)
